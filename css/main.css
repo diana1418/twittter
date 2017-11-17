@@ -1,0 +1,126 @@
+* {
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border-radius: 10px;
+}
+
+header {
+    background-color: #6AD2F3;
+    display: block;
+    position: fixed;
+    text-align: center;
+    z-index: 100;
+    width: 100%;
+    height: 7vh;
+}
+header h1 {
+    color: #fff;
+    font-family: 'Lobster', cursive;  
+    font-size: 20px; 
+}
+.container {
+    box-sizing: border-box;
+    background-image:url(../assets/images/flower1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+}
+
+
+/* primera section: informacion e input*/
+
+
+.first-section {
+    height: 50%;
+}
+
+.first-section div{
+    background-color: #fff;
+    border: none;
+    display: inline-block;
+}
+.code {
+    float: left;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 50vh;
+}
+.code h5 {
+    color: #6B93A5;
+    font-weight: 600px;
+}
+
+.code h4,p,h5 {
+    padding-left: 3vh;
+    line-height: 5vh;
+    padding: 2vh;
+}
+
+.write {
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+    width: 50vh;
+    height: 35vh;
+}
+
+.write input {
+ width: 100%;
+ height: 50%;
+ border: none;
+ background: #fff;
+}
+
+.btn {
+    background-color: #6AD2F3;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    outline: none;
+    padding: 7px;
+}
+
+/* segunda section*/
+
+.add {
+    margin-left: 10vh;
+    margin-top: 150vh;
+}
+
+#writeInput {
+    border: none;
+    height: 25vh;
+}
+
+#saveText {
+   margin: 2vh;
+}
+
+#add {
+    height: 100%;
+}
+
+#add div .paragraph{
+ width: 100%;
+}
+
+.save-div {
+    width: 100%;
+    background-color: #fff;
+    clear: both;
+   
+}
+.new-paragraph {
+margin: 2vh;
+padding: 0;
+}
+
