@@ -1,5 +1,4 @@
 * {
-    
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     margin: 0;
@@ -19,11 +18,13 @@ header {
     width: 100%;
     height: 7vh;
 }
+
 header h1 {
     color: #fff;
     font-family: 'Lobster', cursive;  
     font-size: 20px; 
 }
+
 .container {
     box-sizing: border-box;
     background-image:url(../assets/images/flower1.jpg);
@@ -31,7 +32,6 @@ header h1 {
     width: 100%;
     height: 100%;
     position: absolute;
- 
 }
 
 
@@ -91,34 +91,26 @@ header h1 {
 
 /* segunda section*/
 
-.add {
-    margin-left: 10vh;
-    margin-top: 150vh;
+#add {
+    height: 100%;
 }
 
 #writeInput {
     border: none;
     height: 25vh;
+    width: 100%;
 }
 
 #saveText {
    margin: 2vh;
 }
 
-#add {
-    height: 100%;
-}
-
-#add div .paragraph{
- width: 100%;
-}
-
 .save-div {
     width: 100%;
     background-color: #fff;
     clear: both;
-   
 }
+
 .new-paragraph {
 margin: 2vh;
 padding: 0;
