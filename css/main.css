@@ -1,5 +1,4 @@
 * {
-    
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     margin: 0;
@@ -19,11 +18,13 @@ header {
     width: 100%;
     height: 7vh;
 }
+
 header h1 {
     color: #fff;
     font-family: 'Lobster', cursive;  
     font-size: 20px; 
 }
+
 .container {
     box-sizing: border-box;
     background-image:url(../assets/images/flower1.jpg);
@@ -31,7 +32,6 @@ header h1 {
     width: 100%;
     height: 100%;
     position: absolute;
- 
 }
 
 
@@ -51,7 +51,7 @@ header h1 {
     float: left;
     margin-left: 50px;
     margin-top: 80px;
-    width: 50vh;
+    width: 60vh;
 }
 .code h5 {
     color: #6B93A5;
@@ -64,11 +64,13 @@ header h1 {
     padding: 2vh;
 }
 
+/**/
+
 .write {
     float: right;
     margin-top: 80px;
     margin-right: 50px;
-    width: 50vh;
+    width: 30%;
     height: 35vh;
 }
 
@@ -79,48 +81,45 @@ header h1 {
  background: #fff;
 }
 
-.btn {
+#btn {
     background-color: #6AD2F3;
     border: none;
     border-radius: 5px;
-    color: #ffffff;
+    color: #fff;
     display: block;
     outline: none;
     padding: 7px;
 }
 
+#accountant {
+ float: right;
+ margin-bottom: 15vh;
+}
+
 /* segunda section*/
 
-.add {
-    margin-left: 10vh;
-    margin-top: 150vh;
+#add {
+    height: 100%;
 }
 
 #writeInput {
     border: none;
     height: 25vh;
+    width: 100%;
 }
 
 #saveText {
    margin: 2vh;
 }
 
-#add {
-    height: 100%;
-}
-
-#add div .paragraph{
- width: 100%;
-}
-
 .save-div {
     width: 100%;
     background-color: #fff;
     clear: both;
-   
 }
+
 .new-paragraph {
-margin: 2vh;
+margin: 20vh;
 padding: 0;
 }
 
