@@ -51,7 +51,7 @@ header h1 {
     float: left;
     margin-left: 50px;
     margin-top: 80px;
-    width: 50vh;
+    width: 60vh;
 }
 .code h5 {
     color: #6B93A5;
@@ -64,11 +64,13 @@ header h1 {
     padding: 2vh;
 }
 
+/**/
+
 .write {
     float: right;
     margin-top: 80px;
     margin-right: 50px;
-    width: 50vh;
+    width: 30%;
     height: 35vh;
 }
 
@@ -79,14 +81,19 @@ header h1 {
  background: #fff;
 }
 
-.btn {
+#btn {
     background-color: #6AD2F3;
     border: none;
     border-radius: 5px;
-    color: #ffffff;
+    color: #fff;
     display: block;
     outline: none;
     padding: 7px;
+}
+
+#accountant {
+ float: right;
+ margin-bottom: 15vh;
 }
 
 /* segunda section*/
@@ -112,7 +119,7 @@ header h1 {
 }
 
 .new-paragraph {
-margin: 2vh;
+margin: 20vh;
 padding: 0;
 }
 
