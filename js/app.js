@@ -29,5 +29,12 @@ window.addEventListener('load', function() {
   text.addEventListener('keyup', function() {
     var letter = text.value.length;
     accountant.textContent = max - letter;
+    if (letter > 140) {
+      button.disabled = true;
+      button.style.backgroundColor = '#E0E4E2';
+    } else {
+      button.disabled = false;
+      button.style.backgroundColor = '#6AD2F3';
+    }
   });
 }) ;
