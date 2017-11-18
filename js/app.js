@@ -1,10 +1,12 @@
 window.addEventListener('load', function() {
-  //obteniendo datos
+  // obteniendo datos
+  var accountant = document.getElementById('accountant');
   var addText = document.getElementById('add');
-  var button = document.getElementById('saveText');
+  var button = document.getElementById('btn');
+  var max = 140;
   var text = document.getElementById('writeInput');
-   
-  //creando un evento que se produzca al hacer click en 'tweet'
+  
+  // creando un evento que se produzca al hacer click en 'tweet'
 
   button.addEventListener('click', function(event) {
     event.preventDefault();
@@ -18,7 +20,14 @@ window.addEventListener('load', function() {
     addText.appendChild(save);
   
     text.value = '';
-    
-    addText.insertBefore(save , addText.childNodes[0]);
+    accountant.textContent = max;
+    addText.insertBefore(save, addText.childNodes[0]);
+  });
+
+  // Habilitar y deshabilitando el buttom 
+
+  text.addEventListener('keyup', function() {
+    var letter = text.value.length;
+    accountant.textContent = max - letter;
   });
 }) ;
